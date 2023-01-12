@@ -1,0 +1,27 @@
+header div {
+    z-index: 1000;
+    position: relative;
+
+    background-color: var(--primary-color);
+    box-shadow: 0px 2px 2px #000;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 48px;
+    background-color: var(--dark-primary-color);
+}
+
+header nav a {
+    color: #FFF;
+    font-weight: bold;
+    margin: 0px 10px;
+}
+
+header nav a:hover{
+    transition: 300ms;
+    color: var(--second-text);
+}
